@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover"/>
+  <title>Our Beautiful Memories & Surprise</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Animated Background -->
+  <div class="animated-bg">
+    <div class="floating-particles"></div>
+    <div class="gradient-orbs">
+      <div class="orb orb-1"></div>
+      <div class="orb orb-2"></div>
+      <div class="orb orb-3"></div>
+    </div>
+  </div>
+
+  <!-- Glass Navigation -->
+  <nav class="glass-navbar">
+    <div class="nav-brand">💝 Our Story</div>
+    <ul class="nav-menu">
+      <li><a href="#hero" class="nav-link">Home</a></li>
+      <li><a href="#memories" class="nav-link">Memories</a></li>
+      <li><a href="#timeline" class="nav-link">Timeline</a></li>
+      <li><a href="#surprise" class="nav-link">Surprise</a></li>
+    </ul>
+    <div class="nav-toggle">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="hero" class="hero-section">
+    <div class="hero-content">
+      <div class="glass-card main-card">
+        <div class="card-header">
+          <div class="love-icon">💕</div>
+          <h1 class="hero-title">Our Beautiful Journey</h1>
+        </div>
+        <div class="card-body">
+          <p id="hero-message" class="hero-message">Every moment with you is a precious memory...</p>
+          <button id="start-journey" class="glass-btn primary-btn">
+            <span>Start Our Journey</span>
+            <div class="btn-ripple"></div>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <div class="scroll-arrow"></div>
+    </div>
+  </section>
+
+  <!-- Memories Gallery Section -->
+  <section id="memories" class="memories-section hidden">
+    <div class="section-container">
+      <div class="glass-card section-header">
+        <h2 class="section-title">Our Precious Memories 📸</h2>
+        <p class="section-subtitle">Every picture tells our love story</p>
+      </div>
+      
+      <div class="memories-grid">
+        <div class="memory-card glass-card" data-memory="1">
+          <div class="memory-image">
+            <div class="image-placeholder">
+              <img src="memory1.jpg" alt="Memory 1" class="memory-img">
+              <!-- <span class="memory-icon">❤️</span> -->
+              <!-- <span class="memory-icon">📷</span> -->
+              <p>First Date</p>
+            </div>
+          </div>
+          <div class="memory-info">
+            <h3>Our First Meeting</h3>
+            <p>The day everything changed</p>
+          </div>
+        </div>
+
+        <div class="memory-card glass-card" data-memory="2">
+          <div class="memory-image">
+            <div class="image-placeholder">
+              <span class="memory-icon">💑</span>
+              <p>Together</p>
+            </div>
+          </div>
+          <div class="memory-info">
+            <h3>Perfect Moments</h3>
+            <p>When time stood still</p>
+          </div>
+        </div>
+
+        <div class="memory-card glass-card" data-memory="3">
+          <div class="memory-image">
+            <div class="image-placeholder">
+              <span class="memory-icon">🌅</span>
+              <p>Adventure</p>
+            </div>
+          </div>
+          <div class="memory-info">
+            <h3>Our Adventures</h3>
+            <p>Exploring the world together</p>
+          </div>
+        </div>
+
+        <div class="memory-card glass-card" data-memory="4">
+          <div class="memory-image">
+            <div class="image-placeholder">
+              <span class="memory-icon">💖</span>
+              <p>Love</p>
+            </div>
+          </div>
+          <div class="memory-info">
+            <h3>Pure Love</h3>
+            <p>Hearts beating as one</p>
+          </div>
+        </div>
+      </div>
+
+      <button id="view-all-memories" class="glass-btn secondary-btn">
+        <span>View All Memories</span>
+        <div class="btn-ripple"></div>
+      </button>
+    </div>
+  </section>
+
+  <!-- Timeline Section -->
+  <section id="timeline" class="timeline-section hidden">
+    <div class="section-container">
+      <div class="glass-card section-header">
+        <h2 class="section-title">Our Love Timeline ⏰</h2>
+        <p class="section-subtitle">Milestones of our beautiful journey</p>
+      </div>
+
+      <div class="timeline-container">
+        <div class="timeline-item glass-card" data-date="Day 1">
+          <div class="timeline-marker">
+            <div class="marker-dot"></div>
+          </div>
+          <div class="timeline-content">
+            <h3>First Glance</h3>
+            <p>The moment our eyes met, everything changed forever</p>
+            <span class="timeline-icon">👀</span>
+          </div>
+        </div>
+
+        <div class="timeline-item glass-card" data-date="Week 1">
+          <div class="timeline-marker">
+            <div class="marker-dot"></div>
+          </div>
+          <div class="timeline-content">
+            <h3>First Conversation</h3>
+            <p>Hours felt like minutes when we talked</p>
+            <span class="timeline-icon">💬</span>
+          </div>
+        </div>
+
+        <div class="timeline-item glass-card" data-date="Month 1">
+          <div class="timeline-marker">
+            <div class="marker-dot"></div>
+          </div>
+          <div class="timeline-content">
+            <h3>First Date</h3>
+            <p>Nervous butterflies and endless smiles</p>
+            <span class="timeline-icon">🌹</span>
+          </div>
+        </div>
+
+        <div class="timeline-item glass-card" data-date="Today">
+          <div class="timeline-marker">
+            <div class="marker-dot active"></div>
+          </div>
+          <div class="timeline-content">
+            <h3>Forever & Always</h3>
+            <p>Our love story continues to grow stronger</p>
+            <span class="timeline-icon">💕</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Surprise Section -->
+  <section id="surprise" class="surprise-section hidden">
+    <div class="section-container">
+      <div class="glass-card section-header">
+        <h2 class="section-title">Special Surprise 🎁</h2>
+        <p class="section-subtitle">Something special just for you</p>
+      </div>
+
+      <div class="surprise-container">
+        <div class="surprise-box glass-card" id="surprise-box">
+          <div class="box-lid">
+            <div class="gift-bow"></div>
+          </div>
+          <div class="box-body">
+            <div class="surprise-content hidden" id="surprise-content">
+              <div class="surprise-message">
+                <h3>You Are My Everything! 💖</h3>
+                <p class="love-message">
+                  Every day with you is a gift. You make my world brighter, 
+                  my heart fuller, and my soul complete. Thank you for being 
+                  the most amazing person in my life. I love you more than 
+                  words can express! 
+                </p>
+                <div class="surprise-buttons">
+                  <button class="glass-btn primary-btn" id="play-song">
+                    <span>Play Our Song 🎵</span>
+                  </button>
+                  <button class="glass-btn secondary-btn" id="download-memories">
+                    <span>Download Memories 📱</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="click-message" id="click-message">
+              <p>Click to open your surprise! 👆</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="final-message glass-card" id="final-message">
+        <h2>Thank You for Being You 🌟</h2>
+        <p>This website is just a small token of my endless love for you. 
+           Every memory, every moment, every day with you is a blessing. 
+           You are my heart, my soul, my everything.</p>
+        <div class="heart-animation">💝</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Memory Modal -->
+  <div class="memory-modal" id="memory-modal">
+    <div class="modal-backdrop"></div>
+    <div class="modal-content glass-card">
+      <button class="modal-close">&times;</button>
+      <div class="modal-body">
+        <div class="modal-image">
+          <span class="modal-icon">📸</span>
+        </div>
+        <div class="modal-info">
+          <h3 id="modal-title">Memory Title</h3>
+          <p id="modal-description">Memory description goes here...</p>
+          <div class="modal-date">
+            <span id="modal-date">Date</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
